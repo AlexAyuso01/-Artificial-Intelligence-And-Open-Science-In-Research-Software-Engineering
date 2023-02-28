@@ -1,4 +1,5 @@
 # Rationale for Text Analysis of 10 Open-Access Articles
+
 ## Validation of Metadata and Bibliographical References
 
 To validate the accuracy of the metadata and bibliographical references extracted from the 10 open-access articles, I manually checked each reference against the original article. I verified that the title, author, year, and publication information were accurate, and made corrections where necessary. I also checked the formatting of the references to ensure that they were consistent with the citation style used in the articles.
