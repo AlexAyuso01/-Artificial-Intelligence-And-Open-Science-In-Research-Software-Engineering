@@ -21,11 +21,14 @@ To use this project, follow these steps:
 
 1. Download the 10 open-access articles in PDF format and store them in a folder on your computer.
 2. Configure the Grobid installation to point to the location of the PDF files.
+4. Or update the variable folder_path in the files (***link_analysis.py***, ***figure_analysis.py*** and ***pdfparse.py***) to the current location of the folder.
 3. Run the main.py file which will automaticly run all the programs in the repository.
-    * It will run the abstract analysis
-    * It will run the figure analysis
-    * It will run the link analysis
-    * It will run a function to compare figures and links between all the pdfs 
+    * It will run the abstract analysis.
+    * It will run the figure analysis.
+    * It will run the link analysis.
+    * It will run a function to compare figures and links between all the pdfs.
+    * It will run the author analysis and bibliographical references.
+
 
 ## Sample Output
 
