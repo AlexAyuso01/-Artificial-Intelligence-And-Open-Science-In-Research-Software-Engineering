@@ -7,7 +7,7 @@ import nltk
 from nltk.corpus import stopwords
 import PyPDF2
 
-folder_path = '/home/alejandro/Documents/UNI/OPTATIVAS/AI-OpenData/PDFs'
+folder_path = input('Enter folder path: ')
 
 def abstract_analysis():
     # function to extract abstract text from a PDF file using Grobid

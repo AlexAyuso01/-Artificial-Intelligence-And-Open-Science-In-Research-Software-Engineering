@@ -3,7 +3,8 @@ from grobid_client.client import GrobidClient
 
 def author_analysis():
     # specify folder containing PDF files
-    folder_path = '/home/alejandro/Documents/UNI/OPTATIVAS/AI-OpenData/PDFs'
+    folder_path = input('Enter folder path: ')
+
 
     # create GROBID client
     create_client = GrobidClient()

@@ -5,7 +5,8 @@ import matplotlib.pyplot as plt4
 
 def link_analysis():
     # specify folder containing PDF files
-    folder_path = '/home/alejandro/Documents/UNI/OPTATIVAS/AI-OpenData/PDFs'
+    # '/home/alejandro/Documents/UNI/OPTATIVAS/AI-OpenData/PDFs'
+    folder_path = input('Enter folder path: ')
 
     # count number of links per article across all files
     links_per_article = []

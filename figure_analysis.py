@@ -6,7 +6,8 @@ import matplotlib.pyplot as plt3
 #create the function figure_analysis2 
 def figure_analysis():
     # specify folder containing PDF files
-    folder_path = '/home/alejandro/Documents/UNI/OPTATIVAS/AI-OpenData/PDFs'
+    folder_path = input('Enter folder path: ')
+
 
     # count number of figures per article across all files
     figures_per_article = []
